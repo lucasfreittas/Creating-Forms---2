@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', 'cursive';
+
+    background-color: #E5E5E5
+}
+
+
+header{
+    height: 43.6rem;
+    color: white;
+
+    background-color: #535971;
+
+}
+
+.title-wrapper{
+    margin:auto;
+    padding-top: 14rem;
+    width: 75rem;
+  
+}
+
+header h1{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 6.0rem;
+    
+}
+
+header p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+
+    width: 41.7rem;
+
+    margin-top: 2.0rem;
+    
+}
+
+form{
+    width: 75rem;
+    margin: auto;
+    margin-top: -10rem;
+    background-color: white;
+    padding: 6.4rem;
+
+    border-radius: 2.0rem 2.0rem 0 0;
+}
+
+fieldset{
+    border: none;
+    margin-bottom: 3.0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset legend{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 1.6rem;
+    margin-bottom: 3.5rem;
+
+    width: 100%;
+
+    color: #535971;
+}
+
+label{
+    display: block;
+    box-sizing:content-box;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    
+    
+
+    color: #4E4958;
+}
+
+input{
+  
+    height: 5.6rem;
+    width: 100%;
+
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    margin-bottom: 1.6rem;
+    margin-top: 5px;
+
+
+
+    color: #4E4958;
+    padding-left: 1rem;
+
+}
+
+span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+
+    margin-left: 1rem;
+
+    color: #C1BCCC;
+}
+
+.line-wrapper{
+    display: flex;
+    gap: 1.5rem;
+
+    
+}
+
+.input-wrapper{
+    width: 100%;
+}
+
+h2{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 3.4rem;
+  
+    margin: 1rem 0px;
+
+    color: #535971;
+}
+
+.schedulle{
+    display: flex;
+    gap: 1rem;
+}
+
+.date{
+    width: 30rem;
+}
+
+.submit-btn{
+    margin: 0 auto 30rem;
+    width: 75rem;
+    background-color: #535971;
+    padding: 5.0rem 7.0rem;
+
+    border-radius: 0 0 2.0rem 2.0rem;
+}
+
+.submit-btn input{
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    background-color:#FF5374;
+
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 2.6rem;
+
+    cursor: pointer;
+}
